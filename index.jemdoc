@@ -1,51 +1,24 @@
-# jemdoc: {index.html}
-= jemdoc -- example page
-[https://jemnz.com/ Jacob Mattingley] ([www@jemnz.com])
-
-If the first line of the file starts with +\# jemdoc+, special functions like [menu.html menus] will be used.
-
-== Example
-Here are some *text* /features/. I could [http://cvxmod.net/ link somewhere] or insert a raw link to another page like [download.html]. I could use +monospace+, too.
-
-I could write special characters like \#, \$ and \+ by just using a backslash (\\) in front of those characters. Or automatically detect an [www@jemnz.com email address].
+# jemdoc: menu{MENU}{index.html}
+= Xin Gao
+[] ([gaoxin@shanghaitech.edu.cn])
 
 ~~~
-Save the file as +index.jemdoc+, say, and simply call +jemdoc index+ (after [download.html downloading jemdoc], of course).
+{}{img_left}{meX.JPG}{alt text}{180px}{HEIGHTpx}{IMGLINKTARGET}
 ~~~
 
-== Next bit, next heading level two
-=== Getting into level three now
+\n
+Welcome to my homepage, I am a student in the [http://sist.shanghaitech.edu.cn/ School of Information Science and Technology]@ ShanghaiTech University. My advisor is Professor Ziyu Shao. 
 
-Why not use a list 
-- to explain the way you do lists?
-- to demonstrate how a line\n break might work?
+Before I went to ShanghaiTech, I received the B.E. degree in Huazhong University of Science and Technology. 
 
-Or perhaps a 
-. Multilevel
-  .. Numbered list
-  .. Is more
-. Useful?
 
-: {Definition} lists, especially when there are many definitions 
-: {Can be useful} for explaining things
+== Research Interests
+My research centers on network optimization in data center networks. My current topic is to develope online algorithms for choosing wireless links in data center networks to eliminate hotspots. 
 
-== Finally, a few more blocks
-This `section' features "smart quotes".
+I am looking forward to discussing with people who are interested or have been working on network optimization. Please contact me if you want to change ideas and discuss with me. 
 
-~~~
-{Simple block}
-This is a simple text block, with a title. Notice how the previous line has only one set of braces (\{\}).
-~~~
 
-~~~
-{Interactive Python listing}{pyint}
->>> print 'Interactive Python code.'
-'Interactive Python code.'
-~~~
 
-~~~
-{}{}
-Plain code block with no title.
-~~~
-
-You might need 2--3 different-sized dashes---they can be useful. Now we're done!
+== Contact
+Xin Gao \n
+Email: [gaoxin@shanghaitech.edu.cn gaoxin@shanghaitech.edu.cn] or [gaoxin.sydne@gmail.com gaoxin.sydne@gmail.com]
